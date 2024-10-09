@@ -52,11 +52,15 @@ def zad5():
 
 # Zadanie 6
 def zad6():
-    a=1
-    b=2
-    c=3
-    time = lambda x,y,z: str(x)+" godzin "+str(y)+" minut "+str(z) +" sekund"
-    print(time(a,b,c))
+    s = 3662
+    # time = lambda x,y,z: str(x)+" godzin "+str(y)+" minut "+str(z) +" sekund"
+    def time_convert(seconds):
+        hours = seconds//3600
+        seconds = seconds % 3600
+        minutes = seconds//60
+        seconds = seconds %60
+        return hours, minutes, seconds
+    print(time_convert(s))
 
 # Zadanie 7
 # dla x = 2, k = 7 => 6.7749004086429565
@@ -101,8 +105,8 @@ if __name__ == '__main__':
     # zad2()
     # zad3()
     # zad4()
-    zad5()
-    # zad6()
+    # zad5()
+    zad6()
     # zad7()
     # zad8()
     # zad9()
