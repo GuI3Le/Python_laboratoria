@@ -90,13 +90,13 @@ def zad8():
 
 # Zadanie 9
 def zad9():
-    def fibonacci(n):
+    def tribonacci(n):
         if n==0 or n==1:
             return 0
         if n==2:
             return 1
-        return fibonacci(n-1)+fibonacci(n-2)+fibonacci(n-3)
-    print(fibonacci(7))
+        return tribonacci(n-1)+tribonacci(n-2)+tribonacci(n-3)
+    print(tribonacci(7))
 
 
 
