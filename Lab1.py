@@ -1,11 +1,11 @@
 # Zadanie 6
-def Zadanie7():
+def zadanie6():
     x = int(input("Ile masz lat? "))
     print("Masz", x, "lat")
 
 
 # Zadanie 7
-def Zadanie9():
+def Zadanie7():
     kierunek_studiow = input("Podaj kierunek studiów: ")
     rok_studiow = input("Podaj rok studiow: ")
     srednia_z_poprzedniego_semestru = float(input("Podaj średnią uzyskaną w poprzednim semestrze studiów: "))
