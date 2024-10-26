@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aab5b629-c7d3-4332-ab24-2b5f249344ff" name="Changes" comment="Poprawa nazw w zadaniu 9">
-      <change afterPath="$PROJECT_DIR$/.idea/Python_laboratoria.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.py" afterDir="false" />
+    <list default="true" id="aab5b629-c7d3-4332-ab24-2b5f249344ff" name="Changes" comment="Lab3">
+      <change afterPath="$PROJECT_DIR$/Lab4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +50,7 @@
     &quot;Python.Lab1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab4.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -68,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Lab3">
+  <component name="RunManager" selected="Python.Lab4">
     <configuration name="Lab2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_laboratoria" />
       <option name="ENV_FILES" value="" />
@@ -115,8 +109,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_laboratoria" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab4" />
         <item itemvalue="Python.Lab3" />
         <item itemvalue="Python.Lab2" />
       </list>
@@ -142,7 +160,9 @@
       <workItem from="1728417904106" duration="568000" />
       <workItem from="1728462128821" duration="4745000" />
       <workItem from="1729066830493" duration="4633000" />
-      <workItem from="1729665418125" duration="56000" />
+      <workItem from="1729665418125" duration="127000" />
+      <workItem from="1729671753744" duration="4847000" />
+      <workItem from="1729970417952" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1">
       <option name="closed" value="true" />
@@ -176,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728466780606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab3">
+      <option name="closed" value="true" />
+      <created>1729665500067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729665500067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,11 +215,13 @@
     <MESSAGE value="Lab 2" />
     <MESSAGE value="Poprawa zadania 6" />
     <MESSAGE value="Poprawa nazw w zadaniu 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawa nazw w zadaniu 9" />
+    <MESSAGE value="Lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_laboratoria$Lab3.coverage" NAME="Lab3 Coverage Results" MODIFIED="1729071277251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_laboratoria$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1727860130102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_laboratoria$Lab2.coverage" NAME="Lab2 Coverage Results" MODIFIED="1729067926633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_laboratoria$Lab4.coverage" NAME="Lab4 Coverage Results" MODIFIED="1729676393761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
